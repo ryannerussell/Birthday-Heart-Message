@@ -10,7 +10,6 @@ SCALE = 20
 
 
 class HEIGHT:
-    """Small helper that gives height values a bit more structure."""
 
     def __init__(self, pixels: int | float = SCREEN_HEIGHT):
         self.pixels = max(0, int(pixels))
